@@ -1,0 +1,23 @@
+{
+  "name": "game-agent-failure-queues",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/game_agent_service.ts",
+    "demo": "tsx src/simulate_failure.ts",
+    "test": "tsx --test test/moderation_router.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
